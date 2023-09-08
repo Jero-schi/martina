@@ -3,7 +3,7 @@ scope=https%3A//www.googleapis.com/auth/drive.metadata.readonly&
 include_granted_scopes=true&
 response_type=token&
 state=state_parameter_passthrough_value&
-redirect_uri=https%3A//oauth2.example.com/code&
+redirect_uri=https://jero-schi.github.io/martina/&
 client_id=760926132919-u16uclkrraro9p9151327h4mk1ea8ofp.apps.googleusercontent.com`
 
 /*
@@ -20,7 +20,7 @@ function oauthSignIn() {
   
     // Parameters to pass to OAuth 2.0 endpoint.
     var params = {'client_id': '760926132919-u16uclkrraro9p9151327h4mk1ea8ofp.apps.googleusercontent.com',
-                  'redirect_uri': 'https://jero-schi.github.io/martina/',
+                  'redirect_uri': 'https://jero-schi.github.io/martina/prueba.html',
                   'response_type': 'token',
                   'scope': 'https://www.googleapis.com/auth/drive.metadata.readonly',
                   'include_granted_scopes': 'true',
